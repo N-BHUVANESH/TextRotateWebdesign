@@ -1,0 +1,90 @@
+<html>
+<head>
+    <title>Bhuvanesh</title>
+	<link rel="stylesheet" href="TextRotate.css">
+</head>
+<body>
+    
+    <div class= "main">
+	    
+	  
+	    <nav>
+		  
+          <div class="Buttons">
+            <ul>		  
+	        <li><a href="#">Home</a><li>
+			<li><a href="#">Education</a><li>
+			<li><a href="#">Linkedin</a><li>
+			<li><a href="#">Skills</a><li>
+			
+			</ul>
+			</div>
+		</nav>
+		<div class="info">
+			
+			
+			<div id="circle">
+			 <div class="feature one">
+			 
+			  <h2>Hi all, I am Bhuvanesh</h2></div>
+			  
+			 
+			 <div class="feature two">
+			  
+			  <h2>Hope y'all are doing good</h2>
+			  
+			 
+			 </div>
+			 <div class="feature three">
+			  
+			  <h2>Click sections to see my Profile</h2>
+			  
+			 
+			 </div>
+			 <div class="feature four">
+			 
+			  <h2>Nothing is the best success than learning together. </h2>
+			  
+			 
+			 </div>
+			 
+			</div></div> 
+			<div class="controls">
+			<img src="C:\Users\Bhuvanesh\OneDrive\Documents\Text Rotate\arrow.png" id="Up">
+			<h1>Scroll me</h1>
+			<img src="C:\Users\Bhuvanesh\OneDrive\Documents\Text Rotate\arrow.png" id="Down">
+			</div>
+			<div class="overlay">
+			
+			</div>
+			
+			<script>
+	    var circle = document.getElementById("circle");
+		var Up = document.getElementById("Up");
+		var Down = document.getElementById("Down");
+		
+		var rotateValue = circle.style.transform;
+		var rotateSum;
+		
+		Up.onclick = function(){
+		
+		rotateSum = rotateValue + "rotate(-90deg)";
+		circle.style.transform = rotateSum;
+		rotateValue = rotateSum;
+		
+		}
+		Down.onclick = function(){
+		
+		rotateSum = rotateValue + "rotate(90deg)";
+		circle.style.transform = rotateSum;
+		rotateValue = rotateSum;
+		
+		}
+		</script>
+			
+			
+			
+			
+	</div>
+</body>
+</html>			
